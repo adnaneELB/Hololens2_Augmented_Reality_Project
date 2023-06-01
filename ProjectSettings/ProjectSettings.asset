@@ -705,7 +705,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    14: UNITY_WSA
+    14: release;UNITY_WSA
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -726,7 +726,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: augmented
-  metroPackageVersion: 1.0.0.0
+  metroPackageVersion: 1.0.2.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany

@@ -1,8 +1,10 @@
 using UnityEngine;
-
+using TMPro;
+using UnityEngine.UI;
 public class ClapObject : MonoBehaviour
 {
     // The object that will be clapped onto
+   
     public GameObject clapTarget;
     public GameObject firstFather;
     public  Transform targetPosition;
@@ -14,7 +16,7 @@ public class ClapObject : MonoBehaviour
         
             transform.position = targetPosition.position;
             transform.rotation = targetPosition.rotation;
-           
+            
            
         }
   
